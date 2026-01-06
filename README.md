@@ -42,35 +42,19 @@ This project demonstrates how a frontend server communicates with a backend REST
 
 ---
 
-📂 Project Structure
-├── index.js          # REST API server (Port 4000)
-├── server.js         # Frontend server with EJS (Port 3000)
-├── views/
-│   ├── index.ejs     # Home page (list posts)
-│   └── modify.ejs    # Create & Edit post page
-├── public/
-│   └── styles/
-│       └── main.css  # Styling
-├── package.json
-└── package-lock.json
-
----
-
 🔌 API Endpoints
-Get all posts
+
 GET /posts
 
-Get a single post
 GET /posts/:id
 
-Create a new post
 POST /posts
 
-Update a post (partial update)
 PATCH /posts/:id
 
-Delete a post
 DELETE /posts/:id
+
+--- 
 
 ▶️ How to Run the Project
 
